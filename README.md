@@ -36,7 +36,7 @@
         1. redission分布式锁的aop实现[alpha-tools/alpha-distribute-lock]
         2. elastic-job分布式定时任务的整合[alpha-tools/alpha-job]
         3. alpha-redis分布式缓存实现[alpha-tools/alpha-redis]
-        4. shiro统一权限与登录[alpha-tools/alpha-redis] 
+        4. shiro统一权限与登录[alpha-tools/alpha-shiro] 
         5. mybatis集成及分页插件集成[common-mybatis]
         6. excel通用导入导出注解形式实现[common-util]
         7. fastjson统一序列化的设计,自动将下划线的参数序列化成头峰式的变量[common-web/fastjson]
