@@ -15,120 +15,120 @@
         10. 整合CGLIB实现对类的AOP,对注解@Transactional对Controller有效[common-mybatis/config].
         11. 整合rabbitmq队列,实现简化消息队列的推送及监听.[alpha-tools/alpha-queue]
 </pre>
-##1. [alpha-application](../tree/master/alpha-application)
+##1. [alpha-application](http://git.cafintech.com/share/alpha/tree/master/alpha-application)
 ### 1.1 说明
 <pre>
     本模块主要实现所有非web应用的项目. 列如定时任务项目等.
 </pre>
 
 ### 1.2 子模块
-#### 1.2.1 [alpha-application-example](../tree/master/alpha-application/alpha-application-example)
+#### 1.2.1 [alpha-application-example](http://git.cafintech.com/share/alpha/tree/master/alpha-application/alpha-application-example)
 <pre>
     本模块是非web项目的一个启动样例.
 </pre>
 
-##2. [alpha-business](../tree/master/alpha-business)
+##2. [alpha-business](http://git.cafintech.com/share/alpha/tree/master/alpha-business)
 ### 2.1 说明
 <pre>
     本模块主要实现项目中所有的业务.
 </pre>
 
 ### 2.2 子模块
-#### 2.2.1 [common-business-model](../tree/master/alpha-business/common-business-model)
+#### 2.2.1 [common-business-model](http://git.cafintech.com/share/alpha/tree/master/alpha-business/common-business-model)
 <pre>
     本模块主要实现项目中业务中依赖的公共model.
 </pre>
 
-#### 2.2.2 [common-business-service](../tree/master/alpha-business/common-business-service)
+#### 2.2.2 [common-business-service](http://git.cafintech.com/share/alpha/tree/master/alpha-business/common-business-service)
 <pre>
     本模块主要实现项目中公共依赖的服务类,需要保持事务性的集约服务.
 </pre>
 
-## 3. [alpha-tools](../tree/master/alpha-tools)
+## 3. [alpha-tools](http://git.cafintech.com/share/alpha/tree/master/alpha-tools)
 ### 3.1 说明
 <pre>
     本模块主要实现项目中的使用工具. 如redis,elastic-job定时任务,分布式锁.
 </pre>
 
 ### 3.2 子模块
-#### 3.2.1 [alpha-distribute-lock](../tree/master/alpha-tools/alpha-distribute-lock)
+#### 3.2.1 [alpha-distribute-lock](http://git.cafintech.com/share/alpha/tree/master/alpha-tools/alpha-distribute-lock)
 <pre>
     本模块主要实现项目中需要的分布式锁的功能.
 </pre>
 
-#### 3.2.2 [alpha-job](../tree/master/alpha-tools/alpha-job)
+#### 3.2.2 [alpha-job](http://git.cafintech.com/share/alpha/tree/master/alpha-tools/alpha-job)
 <pre>
     本模块主要整合elastic-job分布式定时任务的使用.
 </pre>
 
-#### 3.2.3 [alpha-redis](../tree/master/alpha-tools/alpha-redis)
+#### 3.2.3 [alpha-redis](http://git.cafintech.com/share/alpha/tree/master/alpha-tools/alpha-redis)
 <pre>
     本模块主要整合spring-redis和redission分布式.
 </pre>
 
-#### 3.2.4 [alpha-shiro](../tree/master/alpha-tools/alpha-shiro)
+#### 3.2.4 [alpha-shiro](http://git.cafintech.com/share/alpha/tree/master/alpha-tools/alpha-shiro)
 <pre>
    本模块主要整合shiro,实现权限验证和登录验证, 本项目依赖alpha-redis模块做会话的缓存.
 </pre>
 
-#### 3.2.5 [alpha-queue](../tree/master/alpha-tools/alpha-queue)
+#### 3.2.5 [alpha-queue](http://git.cafintech.com/share/alpha/tree/master/alpha-tools/alpha-queue)
 <pre>
    本模块主要整合rabbitmq,实现消息队列的使用.
 </pre>
 
-## 4. [alpha-web](../tree/master/alpha-web)
+## 4. [alpha-web](http://git.cafintech.com/share/alpha/tree/master/alpha-web)
 ### 4.1 说明
 <pre>
     本模块主要实现所有web应用的项目.
 </pre>
 
 ### 4.2 子模块
-#### 4.2.1 [alpha-web-example](../tree/master/alpha-web/alpha-web-example)
+#### 4.2.1 [alpha-web-example](http://git.cafintech.com/share/alpha/tree/master/alpha-web/alpha-web-example)
 <pre>
     本模块是web项目的一个启动样例.
 </pre>
 
-## 5. [common-application](../tree/master/common-application)
+## 5. [common-application](http://git.cafintech.com/share/alpha/tree/master/common-application)
 <pre>
     本模块主要实现所有非web应用的公共部分.
 </pre>
 
-## 6. [common-config](../tree/master/common-config)
+## 6. [common-config](http://git.cafintech.com/share/alpha/tree/master/common-config)
 <pre>
     本模块主要实现项目中依赖的公共配置.
 </pre>
 
-## 7. [common-enums](../tree/master/common-enums)
+## 7. [common-enums](http://git.cafintech.com/share/alpha/tree/master/common-enums)
 <pre>
     本模块主要实现项目中依赖的公共枚举.
 </pre>
 
-## 8. [common-mybatis](../tree/master/common-mybatis)
+## 8. [common-mybatis](http://git.cafintech.com/share/alpha/tree/master/common-mybatis)
 <pre>
     本模块主要整合mybatis,CGLib,分页插件pageHelper,实现关系数据库的访问.
 </pre>
 
-## 9. [common-util](../tree/master/common-util)
+## 9. [common-util](http://git.cafintech.com/share/alpha/tree/master/common-util)
 <pre>
     本模块主要整合一些通用的工具类.
 </pre>
 
-## 10. [common-web](../tree/master/common-web)
+## 10. [common-web](http://git.cafintech.com/share/alpha/tree/master/common-web)
 <pre>
     本模块主要实现所有web应用的公共部分. 包括公共参数解析,异常定义,restful接口定义,参数校验器.
 </pre>
 
-## 11. [db](../tree/master/db)
+## 11. [db](http://git.cafintech.com/share/alpha/tree/master/db)
 <pre>
     此模块会增量的保存对数据的增量更新sql.
 </pre>
 
-## 12. [docs](../tree/master/docs)
+## 12. [docs](http://git.cafintech.com/share/alpha/tree/master/docs)
 <pre>
     此模块是整个项目开发过程中的文档存放位置.
 </pre>
 
-## 13. [script](../tree/master/script)
+## 13. [script](http://git.cafintech.com/share/alpha/tree/master/script)
 <pre>
     此模块主要用于脚本存放, 包括发版,打包,部署脚本等.
 </pre>
